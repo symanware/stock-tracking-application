@@ -51,7 +51,7 @@ public class StockController {
     }
 
     @DeleteMapping("/stocks/{id}")
-    public ResponseEntity<Stock> deleteNote(@PathVariable(value = "id") String stockId) {
+    public ResponseEntity<Stock> deleteStock(@PathVariable(value = "id") String stockId) {
         Stock stock = stockRepository.findStockByStockId(stockId);
         if(stock == null) {
             return ResponseEntity.notFound().build();
