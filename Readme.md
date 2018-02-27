@@ -51,6 +51,9 @@ The app defines following CRUD APIs.
     DELETE /api/stocks/{stockId}
 
 You can test them using postman or any other rest client.
+
+* Post stocks 
 ![alt create stocks](readme/poststocks.jpg)
 
+* get stocks
 ![alt get stocks](readme/getstocks.jpg)
