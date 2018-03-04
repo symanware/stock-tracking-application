@@ -22,7 +22,7 @@ public class StockController {
     }
 
     @GetMapping("/stocks/{id}")
-    public ResponseEntity<Stock> getNoteById(@PathVariable(value = "id") String stockId) {
+    public ResponseEntity<Stock> getStockById(@PathVariable(value = "id") String stockId) {
         Stock stock = stockRepository.findStockByStockId(stockId);
         if(stock == null) {
             return ResponseEntity.notFound().build();

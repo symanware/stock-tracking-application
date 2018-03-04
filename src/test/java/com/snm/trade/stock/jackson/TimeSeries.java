@@ -55,4 +55,8 @@ public class TimeSeries {
     public void setVolume(String volume) {
         this.volume = volume;
     }
+
+
+
+
 }
