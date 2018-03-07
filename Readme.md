@@ -21,7 +21,7 @@ https://github.com/symanware/stock-tracking-application.git
 
 **2. Create Mysql database**
 ```bash
-create database notes_app
+create database stock_app
 ```
 
 **3. Change mysql username and password as per your installation**
