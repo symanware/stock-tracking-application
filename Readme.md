@@ -3,7 +3,8 @@ This application helps to track stock prices and
 sends emails to users when
 * the stock price hits stoploss mark
 * the stock price hits target 
-* sends list of interesting stock to users (which are having high volume transactions) 
+
+# It connects to Alphavantage REST API to know the current stock price using RestTemplate
 
 ## Requirements
 1. Java - 1.8.x
